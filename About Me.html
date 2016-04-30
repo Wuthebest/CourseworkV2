@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link type="text/css" rel="stylesheet" href="About%20Me.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+    <section id="Logo">
+
+        <h1>Alan's Amazing Website</h1>
+        <div id="search"> </div>
+
+        <gcse:search></gcse:search>
+    </section>
+    <div id="Navigation">
+        <ul id="quicklinks">
+
+            <li><img src="Assets/WSP1.jpg" alt="Home" width="100px" height="100px">
+                <a href="Home.html">Home</a> </li>
+            <li><img src="Assets/Academics.jpeg" alt="Academics" width="100px" height="100px">
+                <a href="Academics.html">Academics and Achievements</a> </li>
+            <li><img src="Assets/Emails.jpg" alt="Contact Me" width="100px" height="100px">
+                <a href="Contact%20Me.html">Contact Me</a> </li>
+        </ul>
+    </div>
+
+
+</header>
+<main id="bodytext" class="grid-container">
+<section class="grid-90">
+    <img id="hobbies" src="Assets/hobbies.png" alt="Hobbies" width="300px" align="left">
+    <h1>Hobbies</h1>
+    <p>I have a few hobbies which are as follows:</p>
+    <ul id="hobbylist">
+        <li>Video Games</li>
+        <li>Football</li>
+        <li>Creating model airplanes</li>
+    </ul>
+    <p>I also have a youtube channel. The latest video which I have uploaded and my subscriber button can be seen here:</p>
+
+
+
+    <!----Youtube API starts---->
+
+
+    <iframe id="player" type="text/html" width="640" height="390"
+            src="https://www.youtube.com/embed/l1OuRCWI-7o"
+            frameborder="0" allowfullscreen></iframe>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channel="wuthebest"></div>
+
+       <!----Youtube API ends----->
+
+
+</section>
+    <section class="grid-90">
+        <img id="family" src="Assets/family.jpg" alt="Personal details" width="300px">
+        <h1>Personal Details</h1>
+        <p>Just a few personal details</p>
+        <ul id="personallist">
+            <li>Age: 20</li>
+            <li>Family: 2 Brothers and 1 Sister</li>
+            <li>Birthday: June 2nd</li>
+        </ul>
+    </section>
+    <button type="button" onclick="Increasefont()">Can't read the text?</button>
+    <script src="Coursework%20Javascript.js"></script>
+</main>
+<footer>
+    <strong>(c) Alan Paterson</strong>
+</footer>
+
+</body>
+</html>

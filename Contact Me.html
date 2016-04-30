@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link type="text/css" rel="stylesheet" href="Contact%20Me.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header>
+    <section id="Logo">
+
+        <h1>Alan's Amazing Website</h1>
+        <div id="search"> </div>
+
+        <gcse:search></gcse:search>
+    </section>
+    <div id="Navigation">
+        <ul id="quicklinks">
+
+            <li><img src="Assets/WSP1.jpg" alt="Home" width="100px" height="100px">
+                <a href="Home.html">Home</a> </li>
+            <li><img src="Assets/About.jpg" alt="About me" width="100px" height="100px">
+                <a href="About%20Me.html">About Me</a> </li>
+            <li><img src="Assets/Academics.jpeg" alt="Academics" width="100px" height="100px">
+                <a href="Academics.html">Academics and Achievements</a> </li>
+
+
+        </ul>
+    </div>
+
+</header>
+<main id="bodytext" class="grid-container">
+
+    <section class="grid-90">
+        <img id="commentimg" src="Assets/comment.jpg" alt="comment" width="200px" align="left">
+        <form id="Commentbox">
+            <fieldset>
+                <legend>Please leave a comment...</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" value="" />
+                <label for="Comment">Comment:</label>
+                <textarea name="Comment" cols="45" rows="5"></textarea>
+                <button type="button" onclick="comment()">Submit</button>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <section class="grid-90">
+        <img id="email" src="Assets/mail.png" alt="mail" width="200px" align="left">
+        <p>You can also contact me via <a href="mailto:alanpaterson800@gmail.com">E-mail</a>.
+            Alternatively, you can send me a letter to the address shown below by Google Maps.</p>
+        <!----Google maps API---->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2143.274513008217!2d-1.8113367840006176!3d57.50771818105905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4883869242d352c5%3A0x9b7dea87d4d71da0!2s18+Mallard+Dr%2C+Peterhead%2C+Aberdeenshire+AB42!5e0!3m2!1sen!2suk!4v1462024163284
+      &zoom=5
+      &key=AIzaSyAD8bmUpuEUeEsnbOnnH--Aezjz6qWLJKM" height="300" width="500">
+        </iframe>
+        <!----Google maps API done---->
+    </section>
+    <button type="button" onclick="Increasefont()">Can't read the text?</button>
+    <script src="Coursework%20Javascript.js"></script>
+</main>
+<footer>
+    <strong>(c) Alan Paterson</strong>
+</footer>
+
+</body>
+</html>

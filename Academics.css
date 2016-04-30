@@ -1,0 +1,88 @@
+h1{
+    Font-family:'Lato', sans-serif;
+    font-weight:700;
+    font-size: 30px;
+    text-align:left;
+}
+h2{
+    font-size: 18px;
+}
+p, a{
+    font-size: 13px;
+}
+
+p, h2, h3, h4, h5, a{
+    Font-family:'Lato', sans-serif;
+    font-weight:400;
+
+}
+h3, h4, h5{
+    Font-family:'Lato', sans-serif;
+    font-weight:300;
+}
+body{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lavender;
+
+
+}
+main{
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#Results{
+    display:inline-block;
+}
+header
+{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #C0C0C0;
+}
+#quicklinks ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+
+}
+#quicklinks li{
+    float:left;
+    list-style-type:none;
+
+
+}
+#quicklinks li a{
+    display:inline-block;
+    text-align:center;
+    padding:0 10px 10px 10px;
+    text-decoration:none;
+}
+footer{
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:right;
+}
+#Academicsimg{
+    float: left;
+    padding-right: 25px;
+    display:inline-block;
+    padding-top: 10px;
+
+}
+#projects{
+    margin:auto;
+    align-items: center;
+    display:block;
+    padding-left: 190px;
+
+}
+#projects>h1{
+    padding-left: 40px;
+}
+
+
